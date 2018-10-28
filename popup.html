@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>QRL</title>
+<style>
+body{
+    background-color: white;
+    align-content: center;
+}
+#qrcode{
+    align-self: center;
+}
+#input{
+    width: 100%;
+}
+#text{
+    font-weight: 700;
+    font-size: 130%;
+    text-align:center;
+    overflow-wrap: break-word;
+}
+#label{
+    font-weight: 600;
+}
+</style>
+</head>
+<body>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript" src="jquery.qrcode.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+
+
+
+<div id ="text"></div><br>
+<div id="qrcode"></div><br>
+<div id="label">Enter Text</div>
+<input type="text" id="input">
+
+
+</body>
+</html>
